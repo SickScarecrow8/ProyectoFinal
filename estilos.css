@@ -1,0 +1,148 @@
+/* Se le asigna al contenedor principal su espacio y su color */
+div#contenedor{
+    background-color: black;
+    width: 760px;
+    height: 840px;
+    margin: auto;
+}
+
+/* Al encabezado se le asigna un ancho y un largo mas paequeño*/
+div#encabezado{
+    background-color: black;
+    width: 750px;
+    height: 100px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+}
+
+/* Al contenedor espacio se le asigna un ancho muy pequeño solo para separar los contenedores secundarios */
+div.espacio{
+    background-color: white;
+    width: 750px;
+    height: 10px;
+    margin: 5px 0px 0px 5px;
+}
+
+/*Todos los contenedores tienen el mismo ancho y largo */
+div#especialidades{
+    background-color: black;
+    width: 750px;
+    height: 200px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+}
+
+div#bebidas{
+    background-color: black;
+    width: 750px;
+    height: 200px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+}
+
+div#entradas{
+    background-color: black;
+    width: 750px;
+    height: 200px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+}
+
+div#pila{
+    background-color: black;
+    width: 750px;
+    height: 50px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+}
+
+img#logo{
+    width: 100px;
+    height: 100px;
+    /*Se utiliza border radius para hacer la imagen redonda*/
+    border-radius: 50px;
+    margin: 0px 0px 0px 30px;
+}
+
+/*Para el titulo se le asigno una fuente mas granade que todas las que usamos*/
+div#titulo{
+    background-color: white;
+    width: 500px;
+    height: 85px;
+    margin: 10px 0px 5px 50px;
+}
+
+h2.nombre{
+    margin: 0px;
+    font-size: 40px;
+    color: black;
+    margin: 0px 0px 0px 130px;
+
+}
+
+/*Con hover se implenta que al pasar el mouse por el objeto este resalte*/
+h2.nombre:hover{
+    font-size: 45px;
+    color: red;
+}
+
+h3.sub{
+    margin: 0px;
+    font-size: 30px;
+    color: black;
+    margin: 0px 0px 0px 130px;
+}
+
+img.imgprincipal{
+    width: 180px;
+    height: 180px;
+    /*Se utiliza border radius para hacer la imagen redonda*/
+    border-radius: 100px;
+    margin: 10px 0px 0px 15px;
+}
+
+img.imgprincipal:hover{
+    width: 190px;
+    height: 190px;
+}
+
+div.titulo2{
+    background-color: black;
+    width: 170px;
+    height: 30px;
+    margin: 5px 0px 5px 80px;
+}
+
+h4.sub{
+    margin: 0px;
+    font-size: 25px;
+    color: white;
+    margin: auto;
+}
+
+div.imgsecundarias{
+    background-color: black;
+    width: 535px;
+    height: 155px;
+    margin: 5px 0px 0px -75px;
+    display: flex;
+}
+
+
+img.imgplatillo{
+    width: 127px;
+    height: 127px;
+    margin: 15px 0px 0px 5px;
+}
+
+img.imgplatillo:hover{
+    width: 135px;
+    height: 135px;
+}
+
+/*A todos los ul se les da un un tamaño igual*/
+ul{
+    font-size: 17px;
+    color: white;
+    margin: auto;
+}
